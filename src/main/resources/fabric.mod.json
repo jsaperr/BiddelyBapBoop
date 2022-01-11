@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "first",
+  "version": "${version}",
+
+  "name": "First Mod",
+  "description": "My first fabric mod!",
+  "authors": [
+    "jsaper"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/first/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.jsaper.firstmod.firstMod"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.1",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
